@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/image_sunset"
+    android:padding="8dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <TextView
+        android:background="#ffffff"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:text="예빈이를 위한 게임"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_marginTop="20dp"
+        android:id="@+id/button_dice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="onClicked"
+        android:text="주사위 World!"
+        android:textSize="20sp"
+         />
+
+    <Button
+        android:id="@+id/button_dice2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:onClick="onClicked"
+        android:text="주사위 두개 던지기 게임"
+        android:textSize="20sp"
+         />
+    <Button
+        android:id="@+id/button_pull_game"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:onClick="onClicked"
+        android:text="밀어내기 게임"
+        android:textSize="20sp"
+        />
+    <Button
+        android:id="@+id/button_memorization"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:onClick="onClicked"
+        android:text="숫자 암기 게임"
+        android:textSize="20sp"
+         />
+
+</LinearLayout>

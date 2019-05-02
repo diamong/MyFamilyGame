@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E0F2F1"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="8dp"
+    tools:context=".MemorizationActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#B2DFDB"
+                android:gravity="center"
+                android:text="숫자를 외운후 빈칸에 채워넣으세요"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="#80CBC4"
+                android:gravity="center"
+                android:padding="10dp">
+
+                <TextView
+                    android:id="@+id/text_1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textSize="48sp" />
+
+                <TextView
+                    android:id="@+id/text_2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textSize="48sp" />
+
+                <TextView
+                    android:id="@+id/text_3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textSize="48sp" />
+
+                <TextView
+                    android:id="@+id/text_4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textSize="48sp" />
+
+                <TextView
+                    android:id="@+id/text_5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textSize="48sp" />
+
+                <TextView
+                    android:id="@+id/text_6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="0"
+                    android:textSize="48sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="#4DB6AC"
+                android:gravity="center"
+                android:padding="10dp">
+
+                <EditText
+                    android:id="@+id/edittext_1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:maxLength="1"
+                    android:nextFocusDown="@id/edittext_2"
+                    android:text="0"
+                    android:textSize="48sp" />
+
+                <EditText
+                    android:id="@+id/edittext_2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:maxLength="1"
+                    android:nextFocusDown="@id/edittext_3"
+                    android:text="0"
+                    android:textSize="48sp" />
+
+                <EditText
+                    android:id="@+id/edittext_3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:maxLength="1"
+                    android:nextFocusDown="@id/edittext_4"
+                    android:text="0"
+                    android:textSize="48sp" />
+
+                <EditText
+                    android:id="@+id/edittext_4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:maxLength="1"
+                    android:nextFocusDown="@id/edittext_5"
+                    android:text="0"
+                    android:textSize="48sp" />
+
+                <EditText
+                    android:id="@+id/edittext_5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:maxLength="1"
+                    android:nextFocusDown="@id/edittext_6"
+                    android:text="0"
+                    android:textSize="48sp" />
+
+                <EditText
+                    android:id="@+id/edittext_6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:inputType="number"
+                    android:maxLength="1"
+                    android:nextFocusDown="@id/edittext_1"
+                    android:text="0"
+                    android:textSize="48sp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:background="#26A69A"
+                android:gravity="center"
+                android:padding="10dp">
+
+                <Button
+                    android:id="@+id/button_1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:onClick="MakeNumber"
+                    android:text="?"
+                    android:textSize="48sp" />
+
+                <Button
+                    android:id="@+id/button_2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:onClick="MakeNumber"
+                    android:text="?"
+                    android:textSize="48sp" />
+
+                <Button
+                    android:id="@+id/button_3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:onClick="MakeNumber"
+                    android:text="?"
+                    android:textSize="48sp" />
+
+                <Button
+                    android:id="@+id/button_4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:onClick="MakeNumber"
+                    android:text="?"
+                    android:textSize="48sp" />
+
+                <Button
+                    android:id="@+id/button_5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:onClick="MakeNumber"
+                    android:text="?"
+                    android:textSize="48sp" />
+
+                <Button
+                    android:id="@+id/button_6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:onClick="MakeNumber"
+                    android:text="?"
+                    android:textSize="48sp" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="빈칸을 채워주세요"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/btn_memorization_start"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:onClick="MakeNumber"
+                    android:text="시~~~~작"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/text_count"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="5"
+                    android:textSize="100sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
