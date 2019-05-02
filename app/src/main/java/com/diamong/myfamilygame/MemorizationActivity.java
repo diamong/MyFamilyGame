@@ -83,6 +83,12 @@ public class MemorizationActivity extends AppCompatActivity {
     }
 
     @Override
+    protected void onStart() {
+        super.onStart();
+        ImmHide(true);
+    }
+
+    @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_memorization);
@@ -90,7 +96,9 @@ public class MemorizationActivity extends AppCompatActivity {
         InitVariable();
         mediaPlayer.start();
 
+
         editTexts[0].addTextChangedListener(new TextWatcher() {
+
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
 
